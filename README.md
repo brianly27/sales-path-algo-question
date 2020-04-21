@@ -27,3 +27,30 @@ The manufacturer wishes to find the minimal Sales Path cost in its distribution
 tree. Given a node "rootNode" write a function "getCheapestCost" that calculates 
 the minimal Sales Path cost in the tree.
 
+Implement your function in the most efficient manner and analyze its time and space complexities
+
+For example:
+
+Given the rootNode of the tree in the diagram above
+
+Your function would return:
+
+7 since it's the minimal Sales Path cost (there are actually two Sales Paths in the tree whose cost is 7)
+
+Constraints:
+- [time limit] 5000ms
+- [input] Node rootNode
+    - 0 =< rootNode.cost =< 100000
+- [output] integer
+
+
+
+
+
+thoughts:
+
+consider breath first search vs depth first search
+is solving using recursive the best way?
+
+
+
